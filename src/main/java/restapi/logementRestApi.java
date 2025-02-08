@@ -58,7 +58,7 @@ import java.awt.image.PixelGrabber;
           if (updated) {
               return Response.status(Response.Status.OK)
                       .entity("Logement mis à jour avec succès")
-                      .build(); 
+                      .build();
           } else {
               return Response.status(Response.Status.NOT_FOUND)
                       .entity("Logement non trouvé")
